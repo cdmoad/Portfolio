@@ -41,7 +41,7 @@ const projects = [
     name: "Mbrouka Presentation WebSite",
     description: "This application, utilizing HTML, CSS, PHP, and JavaScript, has been created to effectively showcase the cooperative of Mbrouka.",
     image: "./Images/mbrouka-web.png",
-    technologies: ["Ruby on Rails", "Ruby", "PostgreSQL", "Rspec"],
+    technologies: ["PHP", "HTML", "CSS","JavaScript"],
     sourcelink: "https://github.com/cdmoad/Mbrouka",
     livelink: "",
   },
