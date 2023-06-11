@@ -46,12 +46,12 @@ const projects = [
     livelink: "",
   },
   {
-    name: "Employee Management System",
-    description: "This desktop application, developed utilizing C# programming language, is designed to aid the manager in efficiently managing and organizing the data related to employees.",
-    image: "./Images/mbrouka-desktop.png",
-    technologies: ["C#"],
-    sourcelink: "https://github.com/cdmoad/Mbrouka-employees-manager",
-    livelink: "",
+    name: "Machines Supervision System",
+    description: "The machine supervision system includes a timeline, dashboard, and other pages. The dashboard provides real-time data on machine productivity and key performance indicators, allowing for quick analysis and decision-making. It complements the timeline, offering a holistic view of machine performance for proactive productivity management.",
+    image: "./Images/timeLine.png",
+    technologies: ["HTML", "CSS", "JavaScript", "React js","Redux","TailwindCss"],
+    sourcelink: "https://github.com/cdmoad/https://siti-dashboard.netlify.app/-employees-manager",
+    livelink: "https://siti-dashboard.netlify.app/",
   },
    /*
   {
@@ -80,7 +80,7 @@ for (let i = 0; i < projects.length; i += 1) {
   }
   workSection.innerHTML+=
   `<div class="item">
-   <img src=${projects[i].image}   class="project-image" width="100%"  height="240px"/>
+   <img src=${projects[i].image}   class="project-image" width="100%"  height="320px"/>
   <div class="flex-container">
     <h4>${projects[i].name}</h4>
     <div class="tags"> 
@@ -138,11 +138,13 @@ const openPopup = (item) => {
       newTitle.textContent = `${projects[i].name}`;
       newProjectImg.src = `${projects[i].image}`;
       newDescription.textContent = projects[i].description;
+      newTechno.innerHTML = null;
       for (let j = 0; j < projects[i].technologies.length; j += 1) {
         const newTechnoItem = document.createElement('h6');
         newTechnoItem.textContent = projects[i].technologies[j];
         newTechno.appendChild(newTechnoItem);
-      }
+      } 
+     
       firstBtn.href = projects[i].livelink;
       secondBtn.href = projects[i].sourcelink;
     }

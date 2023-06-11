@@ -171,8 +171,7 @@ li {
 }
 
 .item {
-  height: 474px;
-  
+ 
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   transition: transform 0.1s;
@@ -235,6 +234,7 @@ li {
   margin-top: 29px;
   text-decoration: none;
   transition: tranform 1.1s;
+  cursor: pointer;
 }
 
 /* About Myself section */
@@ -454,11 +454,10 @@ textarea:focus {
 
 .new-close-img {
   align-self: flex-end;
+  cursor: pointer;
 }
 
-.new-project-img {
-  height: 40vh;
-}
+ 
 
 .new-title {
   color: #172b4d;
@@ -768,7 +767,7 @@ textarea:focus {
 
   .new-project-img {
     width: 100%;
-    height: auto;
+    
     padding-bottom: 24px;
   }
 
