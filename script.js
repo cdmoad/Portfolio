@@ -53,24 +53,7 @@ const projects = [
     sourcelink: "https://github.com/cdmoad/https://siti-dashboard.netlify.app/-employees-manager",
     livelink: "https://siti-dashboard.netlify.app/",
   },
-   /*
-  {
-    name: "Company Profile",
-    description: "This web application retrieves real live data from the Financial modeling prep API. It provides financial information about companies listed on Nasdaq 100 and Dow Jones Market indexes. All these companies are listed on the Home page. Users can filter these companies by searching for a specific company or by choosing one from the dropdown. ",
-    image: "./Images/CompanyProfile.png",
-    technologies: ["React", "Redux", "Webpack", "CSS3"],
-    sourcelink: "https://github.com/Sahar-AbdelSamad/company-profile",
-    livelink: "https://sahar-abdelsamad.github.io/company-profile/",
-  },
-  {
-    name: "Delicious Recipes",
-    description: "Delicious Recipes is a Webpack project, it retrieves information from two different APIs: Meals DB and Involvement API. The homepage lists some recipes that we can LIKE. The comment button opens a popup window, shows us more information about the recipe, and allows us to leave a comment.",
-    image: "./Images/delicious-recipes.png",
-    technologies: ["JavaScript", "CSS", "WebPack", "jest"],
-    sourcelink: "https://github.com/Sahar-AbdelSamad/delicious-recipes",
-    livelink: "https://sahar-abdelsamad.github.io/delicious-recipes/",
-  },
-  */
+ 
 ];
 
 for (let i = 0; i < projects.length; i += 1) {
